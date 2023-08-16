@@ -12,6 +12,9 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+.ulli{
+  list-style: square;
+}
 
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
@@ -3887,11 +3890,13 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 12, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_transport.scss */
 .transportaion_area .single_transport .icon {
-  height: 50px;
+  height: 70px;
+  text-align: center;
 }
 
 /* line 15, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_transport.scss */
 .transportaion_area .single_transport h3 {
+  text-align: center;
   font-size: 22px;
   font-weight: 500;
   color: #001D38;
@@ -4885,7 +4890,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   color: #000;
   border: none;
   border: 1px solid #596672;
-  border-radius: 30px;
+  border-radius: 10px;
   width: 100%;
 }
 
